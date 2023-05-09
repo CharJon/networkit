@@ -126,7 +126,7 @@ public:
      * @param e The element to move.
      */
     inline void moveToSubset(index s, index e) {
-        assert(this->contains(e));
+        assert(e < z); //assert that e is in the range of node ids
         assert(s <= omega); // do not create new subset ids
         data[e] = s;
     }
