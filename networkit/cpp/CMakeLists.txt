@@ -35,4 +35,4 @@ add_subdirectory("randomization") #generator depend
 #add_subdirectory("simulation") -
 #add_subdirectory("sparsification") -
 add_subdirectory("structures") #generator depend
-add_subdirectory("viz") #generator depend
+#add_subdirectory("viz") #generator depend
