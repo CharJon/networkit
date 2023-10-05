@@ -13,7 +13,7 @@ add_subdirectory("auxiliary")
 #add_subdirectory("components") -
 #add_subdirectory("correlation") -
 #add_subdirectory("distance") -
-#add_subdirectory("dynamics") #generator depend
+add_subdirectory("dynamics") #generator depend
 #add_subdirectory("edgescores") -
 #add_subdirectory("embedding") -
 #add_subdirectory("flow") -
