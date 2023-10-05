@@ -34,5 +34,5 @@ add_subdirectory("io")
 #add_subdirectory("scoring") -
 #add_subdirectory("simulation") -
 #add_subdirectory("sparsification") -
-#add_subdirectory("structures") #generator depend
+add_subdirectory("structures") #generator depend
 #add_subdirectory("viz") #generator depend
