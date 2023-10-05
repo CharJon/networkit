@@ -18,7 +18,7 @@ add_subdirectory("dynamics") #generator depend
 #add_subdirectory("embedding") -
 #add_subdirectory("flow") -
 add_subdirectory("generators")
-#add_subdirectory("geometric") #generator depend
+add_subdirectory("geometric") #generator depend
 #add_subdirectory("global") -
 add_subdirectory("graph")
 #add_subdirectory("independentset") -
@@ -28,11 +28,11 @@ add_subdirectory("io")
 #add_subdirectory("matching") -
 #add_subdirectory("numerics") -
 #add_subdirectory("overlap") -
-#add_subdirectory("randomization") #generator depend
+add_subdirectory("randomization") #generator depend
 #add_subdirectory("reachability") -
 #add_subdirectory("scd") -
 #add_subdirectory("scoring") -
 #add_subdirectory("simulation") -
 #add_subdirectory("sparsification") -
 add_subdirectory("structures") #generator depend
-#add_subdirectory("viz") #generator depend
+add_subdirectory("viz") #generator depend
